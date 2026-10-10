@@ -1,0 +1,9 @@
+# Manifest: Python dependencies for the PyOD AutoEncoder fraud detection project
+# Tested with Python 3.13. Install with:  pip install -r requirements.txt
+pyod==3.6.6           # Outlier detection library (provides the AutoEncoder)
+torch>=2.2            # Deep learning backend used by PyOD's AutoEncoder
+scikit-learn==1.9.1   # Train/test split, scaling and evaluation metrics
+pandas>=2.2           # Loading and handling the CSV dataset
+numpy>=1.26           # Numerical arrays
+matplotlib>=3.8       # Plots (training loss, score histogram, ROC, PR)
+tqdm>=4.66            # Progress bars (required by PyOD's deep-learning base)

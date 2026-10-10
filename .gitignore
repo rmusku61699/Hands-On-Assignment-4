@@ -1,0 +1,13 @@
+# Dataset is ~144 MB and licensed by Kaggle: download it, don't commit it
+data/*.csv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Editors / OS
+.vscode/
+.DS_Store
